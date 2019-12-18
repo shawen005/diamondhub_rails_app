@@ -1,0 +1,489 @@
+# Logfile created on 2019-12-17 04:25:52 +0100 by logger.rb/61378
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Environment: development
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : No known dispatcher detected.
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Application: My Application (Development)
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Installing Net instrumentation
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 04:25:52 +0100 aruna-Vostro-1540 (17750)] INFO : Finished instrumentation
+[2019-12-17 04:25:53 +0100 aruna-Vostro-1540 (17750)] INFO : Starting Agent shutdown
+[2019-12-17 04:27:57 +0100 aruna-Vostro-1540 (17887)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 04:27:57 +0100 aruna-Vostro-1540 (17887)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 04:27:57 +0100 aruna-Vostro-1540 (17887)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 04:27:57 +0100 aruna-Vostro-1540 (17887)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 04:27:57 +0100 aruna-Vostro-1540 (17887)] INFO : Environment: development
+[2019-12-17 04:27:57 +0100 aruna-Vostro-1540 (17887)] INFO : No known dispatcher detected.
+[2019-12-17 04:27:57 +0100 aruna-Vostro-1540 (17887)] INFO : Application: My Application (Development)
+[2019-12-17 04:27:58 +0100 aruna-Vostro-1540 (17887)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 04:27:58 +0100 aruna-Vostro-1540 (17887)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 04:27:58 +0100 aruna-Vostro-1540 (17887)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 04:27:58 +0100 aruna-Vostro-1540 (17887)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 04:27:58 +0100 aruna-Vostro-1540 (17887)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 04:27:58 +0100 aruna-Vostro-1540 (17887)] INFO : Installing Net instrumentation
+[2019-12-17 04:27:58 +0100 aruna-Vostro-1540 (17887)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 04:27:58 +0100 aruna-Vostro-1540 (17887)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 04:27:58 +0100 aruna-Vostro-1540 (17887)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 04:27:58 +0100 aruna-Vostro-1540 (17887)] INFO : Finished instrumentation
+[2019-12-17 04:27:58 +0100 aruna-Vostro-1540 (17887)] INFO : Starting Agent shutdown
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Environment: development
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : No known dispatcher detected.
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Application: My Application (Development)
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Installing Net instrumentation
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Finished instrumentation
+[2019-12-17 04:29:12 +0100 aruna-Vostro-1540 (17948)] INFO : Starting Agent shutdown
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Environment: development
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : No known dispatcher detected.
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Application: My Application (Development)
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Installing Net instrumentation
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Finished instrumentation
+[2019-12-17 04:29:47 +0100 aruna-Vostro-1540 (17994)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-17 04:29:52 +0100 aruna-Vostro-1540 (17994)] ERROR : Invalid license key
+[2019-12-17 04:29:52 +0100 aruna-Vostro-1540 (17994)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 04:30:46 +0100 aruna-Vostro-1540 (17994)] INFO : Starting Agent shutdown
+[2019-12-17 04:40:29 +0100 aruna-Vostro-1540 (18671)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 04:40:29 +0100 aruna-Vostro-1540 (18671)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 04:40:29 +0100 aruna-Vostro-1540 (18671)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : Environment: development
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : No known dispatcher detected.
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : Application: My Application (Development)
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : Installing Net instrumentation
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : Finished instrumentation
+[2019-12-17 04:40:30 +0100 aruna-Vostro-1540 (18671)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-17 04:40:33 +0100 aruna-Vostro-1540 (18671)] ERROR : Invalid license key
+[2019-12-17 04:40:33 +0100 aruna-Vostro-1540 (18671)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 04:42:11 +0100 aruna-Vostro-1540 (18671)] INFO : Starting Agent shutdown
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Environment: development
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : No known dispatcher detected.
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Application: My Application (Development)
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Installing Net instrumentation
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Finished instrumentation
+[2019-12-17 04:42:56 +0100 aruna-Vostro-1540 (18781)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-17 04:43:00 +0100 aruna-Vostro-1540 (18781)] ERROR : Invalid license key
+[2019-12-17 04:43:00 +0100 aruna-Vostro-1540 (18781)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 04:45:01 +0100 aruna-Vostro-1540 (18781)] INFO : Starting Agent shutdown
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Environment: development
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : No known dispatcher detected.
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Application: My Application (Development)
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Installing Net instrumentation
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 04:45:46 +0100 aruna-Vostro-1540 (19047)] INFO : Finished instrumentation
+[2019-12-17 04:45:47 +0100 aruna-Vostro-1540 (19047)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-17 04:45:49 +0100 aruna-Vostro-1540 (19047)] ERROR : Invalid license key
+[2019-12-17 04:45:49 +0100 aruna-Vostro-1540 (19047)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 04:46:33 +0100 aruna-Vostro-1540 (19047)] INFO : Starting Agent shutdown
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Environment: development
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : No known dispatcher detected.
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Application: My Application (Development)
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Installing Net instrumentation
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Finished instrumentation
+[2019-12-17 04:46:57 +0100 aruna-Vostro-1540 (19213)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-17 04:47:00 +0100 aruna-Vostro-1540 (19213)] ERROR : Invalid license key
+[2019-12-17 04:47:00 +0100 aruna-Vostro-1540 (19213)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 05:13:09 +0100 aruna-Vostro-1540 (19213)] INFO : Starting Agent shutdown
+[2019-12-17 05:13:42 +0100 aruna-Vostro-1540 (20149)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 05:13:42 +0100 aruna-Vostro-1540 (20149)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 05:13:42 +0100 aruna-Vostro-1540 (20149)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : Environment: development
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : No known dispatcher detected.
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : Application: My Application (Development)
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : Installing Net instrumentation
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 05:13:43 +0100 aruna-Vostro-1540 (20149)] INFO : Finished instrumentation
+[2019-12-17 05:13:44 +0100 aruna-Vostro-1540 (20149)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-17 05:14:20 +0100 aruna-Vostro-1540 (20149)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2019-12-17 05:14:20 +0100 aruna-Vostro-1540 (20149)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: Failed to open TCP connection to collector.newrelic.com:443 (Network is unreachable - connect(2) for "collector.newrelic.com" port 443)
+[2019-12-17 05:14:20 +0100 aruna-Vostro-1540 (20149)] INFO : Will re-attempt in 60 seconds
+[2019-12-17 05:15:35 +0100 aruna-Vostro-1540 (20149)] ERROR : Invalid license key
+[2019-12-17 05:15:35 +0100 aruna-Vostro-1540 (20149)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 05:23:00 +0100 aruna-Vostro-1540 (20149)] INFO : Starting Agent shutdown
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Environment: development
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : No known dispatcher detected.
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Application: My Application (Development)
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Installing Net instrumentation
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 05:23:34 +0100 aruna-Vostro-1540 (20650)] INFO : Finished instrumentation
+[2019-12-17 05:23:37 +0100 aruna-Vostro-1540 (20650)] ERROR : Invalid license key
+[2019-12-17 05:23:37 +0100 aruna-Vostro-1540 (20650)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 05:23:43 +0100 aruna-Vostro-1540 (20650)] INFO : Starting Agent shutdown
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Environment: development
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : No known dispatcher detected.
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Application: My Application (Development)
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Installing Net instrumentation
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 05:33:18 +0100 aruna-Vostro-1540 (21227)] INFO : Finished instrumentation
+[2019-12-17 05:33:22 +0100 aruna-Vostro-1540 (21227)] ERROR : Invalid license key
+[2019-12-17 05:33:22 +0100 aruna-Vostro-1540 (21227)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 05:33:24 +0100 aruna-Vostro-1540 (21227)] INFO : Starting Agent shutdown
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Environment: development
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : No known dispatcher detected.
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Application: My Application (Development)
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Installing Net instrumentation
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 05:36:49 +0100 aruna-Vostro-1540 (21432)] INFO : Finished instrumentation
+[2019-12-17 05:36:52 +0100 aruna-Vostro-1540 (21432)] ERROR : Invalid license key
+[2019-12-17 05:36:52 +0100 aruna-Vostro-1540 (21432)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 05:36:56 +0100 aruna-Vostro-1540 (21432)] INFO : Starting Agent shutdown
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Environment: development
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : No known dispatcher detected.
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Application: My Application (Development)
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Installing Net instrumentation
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 05:54:43 +0100 aruna-Vostro-1540 (22106)] INFO : Finished instrumentation
+[2019-12-17 05:54:44 +0100 aruna-Vostro-1540 (22106)] INFO : Starting Agent shutdown
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Environment: development
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : No known dispatcher detected.
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Application: My Application (Development)
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Installing Net instrumentation
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Finished instrumentation
+[2019-12-17 06:01:56 +0100 aruna-Vostro-1540 (22553)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-17 06:02:00 +0100 aruna-Vostro-1540 (22553)] ERROR : Invalid license key
+[2019-12-17 06:02:00 +0100 aruna-Vostro-1540 (22553)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 06:10:52 +0100 aruna-Vostro-1540 (3832)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 06:10:52 +0100 aruna-Vostro-1540 (3832)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 06:10:52 +0100 aruna-Vostro-1540 (3832)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 06:10:52 +0100 aruna-Vostro-1540 (3832)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 06:10:52 +0100 aruna-Vostro-1540 (3832)] INFO : Environment: development
+[2019-12-17 06:10:52 +0100 aruna-Vostro-1540 (3832)] INFO : No known dispatcher detected.
+[2019-12-17 06:10:52 +0100 aruna-Vostro-1540 (3832)] INFO : Application: My Application (Development)
+[2019-12-17 06:10:52 +0100 aruna-Vostro-1540 (3832)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 06:10:52 +0100 aruna-Vostro-1540 (3832)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 06:10:52 +0100 aruna-Vostro-1540 (3832)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 06:10:52 +0100 aruna-Vostro-1540 (3832)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 06:10:52 +0100 aruna-Vostro-1540 (3832)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 06:10:53 +0100 aruna-Vostro-1540 (3832)] INFO : Installing Net instrumentation
+[2019-12-17 06:10:53 +0100 aruna-Vostro-1540 (3832)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 06:10:53 +0100 aruna-Vostro-1540 (3832)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 06:10:53 +0100 aruna-Vostro-1540 (3832)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 06:10:53 +0100 aruna-Vostro-1540 (3832)] INFO : Finished instrumentation
+[2019-12-17 06:10:54 +0100 aruna-Vostro-1540 (3832)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-17 06:10:55 +0100 aruna-Vostro-1540 (3832)] ERROR : Invalid license key
+[2019-12-17 06:10:55 +0100 aruna-Vostro-1540 (3832)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 06:12:05 +0100 aruna-Vostro-1540 (3832)] INFO : Starting Agent shutdown
+[2019-12-17 06:13:16 +0100 aruna-Vostro-1540 (4064)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 06:13:16 +0100 aruna-Vostro-1540 (4064)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 06:13:16 +0100 aruna-Vostro-1540 (4064)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 06:13:16 +0100 aruna-Vostro-1540 (4064)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 06:13:16 +0100 aruna-Vostro-1540 (4064)] INFO : Environment: development
+[2019-12-17 06:13:16 +0100 aruna-Vostro-1540 (4064)] INFO : No known dispatcher detected.
+[2019-12-17 06:13:16 +0100 aruna-Vostro-1540 (4064)] INFO : Application: My Application (Development)
+[2019-12-17 06:13:17 +0100 aruna-Vostro-1540 (4064)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 06:13:17 +0100 aruna-Vostro-1540 (4064)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 06:13:17 +0100 aruna-Vostro-1540 (4064)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 06:13:17 +0100 aruna-Vostro-1540 (4064)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 06:13:17 +0100 aruna-Vostro-1540 (4064)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 06:13:17 +0100 aruna-Vostro-1540 (4064)] INFO : Installing Net instrumentation
+[2019-12-17 06:13:17 +0100 aruna-Vostro-1540 (4064)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 06:13:17 +0100 aruna-Vostro-1540 (4064)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 06:13:17 +0100 aruna-Vostro-1540 (4064)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 06:13:17 +0100 aruna-Vostro-1540 (4064)] INFO : Finished instrumentation
+[2019-12-17 06:13:18 +0100 aruna-Vostro-1540 (4064)] INFO : Starting Agent shutdown
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Environment: development
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : No known dispatcher detected.
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Application: My Application (Development)
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Installing Net instrumentation
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Finished instrumentation
+[2019-12-17 06:13:48 +0100 aruna-Vostro-1540 (4091)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-17 06:13:50 +0100 aruna-Vostro-1540 (4091)] ERROR : Invalid license key
+[2019-12-17 06:13:50 +0100 aruna-Vostro-1540 (4091)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 06:56:46 +0100 aruna-Vostro-1540 (4091)] INFO : Starting Agent shutdown
+[2019-12-17 07:12:12 +0100 aruna-Vostro-1540 (16218)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 07:12:12 +0100 aruna-Vostro-1540 (16218)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 07:12:12 +0100 aruna-Vostro-1540 (16218)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : Environment: development
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : No known dispatcher detected.
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : Application: My Application (Development)
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : Installing Net instrumentation
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 07:12:13 +0100 aruna-Vostro-1540 (16218)] INFO : Finished instrumentation
+[2019-12-17 07:12:14 +0100 aruna-Vostro-1540 (16218)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-17 07:12:15 +0100 aruna-Vostro-1540 (16218)] ERROR : Invalid license key
+[2019-12-17 07:12:15 +0100 aruna-Vostro-1540 (16218)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 07:43:34 +0100 aruna-Vostro-1540 (16218)] INFO : Starting Agent shutdown
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Environment: development
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : No known dispatcher detected.
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Application: My Application (Development)
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Installing Net instrumentation
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 07:43:54 +0100 aruna-Vostro-1540 (17214)] INFO : Finished instrumentation
+[2019-12-17 07:43:56 +0100 aruna-Vostro-1540 (17214)] INFO : Starting Agent shutdown
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Environment: development
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : No known dispatcher detected.
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Application: My Application (Development)
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Installing Net instrumentation
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 07:44:42 +0100 aruna-Vostro-1540 (17258)] INFO : Finished instrumentation
+[2019-12-17 07:44:43 +0100 aruna-Vostro-1540 (17258)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-17 07:44:44 +0100 aruna-Vostro-1540 (17258)] ERROR : Invalid license key
+[2019-12-17 07:44:44 +0100 aruna-Vostro-1540 (17258)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-17 07:47:28 +0100 aruna-Vostro-1540 (17258)] INFO : Starting Agent shutdown
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Environment: development
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : No known dispatcher detected.
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Application: My Application (Development)
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Installing ActiveJob instrumentation
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Installing Net instrumentation
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Installing Rails 5 view instrumentation
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-17 07:48:04 +0100 aruna-Vostro-1540 (17471)] INFO : Finished instrumentation
+[2019-12-17 07:48:05 +0100 aruna-Vostro-1540 (17471)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-17 07:48:07 +0100 aruna-Vostro-1540 (17471)] ERROR : Invalid license key
+[2019-12-17 07:48:07 +0100 aruna-Vostro-1540 (17471)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-18 03:49:48 +0100 aruna-Vostro-1540 (4514)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-18 03:49:48 +0100 aruna-Vostro-1540 (4514)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-18 03:49:48 +0100 aruna-Vostro-1540 (4514)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-18 03:49:48 +0100 aruna-Vostro-1540 (4514)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-18 03:49:48 +0100 aruna-Vostro-1540 (4514)] INFO : Environment: development
+[2019-12-18 03:49:48 +0100 aruna-Vostro-1540 (4514)] INFO : No known dispatcher detected.
+[2019-12-18 03:49:48 +0100 aruna-Vostro-1540 (4514)] INFO : Application: My Application (Development)
+[2019-12-18 03:49:48 +0100 aruna-Vostro-1540 (4514)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-18 03:49:49 +0100 aruna-Vostro-1540 (4514)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-18 03:49:49 +0100 aruna-Vostro-1540 (4514)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-18 03:49:49 +0100 aruna-Vostro-1540 (4514)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-18 03:49:49 +0100 aruna-Vostro-1540 (4514)] INFO : Installing ActiveJob instrumentation
+[2019-12-18 03:49:49 +0100 aruna-Vostro-1540 (4514)] INFO : Installing Net instrumentation
+[2019-12-18 03:49:49 +0100 aruna-Vostro-1540 (4514)] INFO : Installing Rails 5 view instrumentation
+[2019-12-18 03:49:49 +0100 aruna-Vostro-1540 (4514)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-18 03:49:49 +0100 aruna-Vostro-1540 (4514)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-18 03:49:49 +0100 aruna-Vostro-1540 (4514)] INFO : Finished instrumentation
+[2019-12-18 03:49:50 +0100 aruna-Vostro-1540 (4514)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-18 03:50:10 +0100 aruna-Vostro-1540 (4514)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2019-12-18 03:50:10 +0100 aruna-Vostro-1540 (4514)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: Failed to open TCP connection to collector.newrelic.com:443 (getaddrinfo: Name or service not known)
+[2019-12-18 03:50:10 +0100 aruna-Vostro-1540 (4514)] INFO : Will re-attempt in 60 seconds
+[2019-12-18 03:51:25 +0100 aruna-Vostro-1540 (4514)] INFO : Starting Agent shutdown
+[2019-12-18 03:51:45 +0100 aruna-Vostro-1540 (4653)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-18 03:51:45 +0100 aruna-Vostro-1540 (4653)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-18 03:51:45 +0100 aruna-Vostro-1540 (4653)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : Environment: development
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : No known dispatcher detected.
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : Application: My Application (Development)
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : Installing ActiveJob instrumentation
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : Installing Net instrumentation
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : Installing Rails 5 view instrumentation
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : Finished instrumentation
+[2019-12-18 03:51:46 +0100 aruna-Vostro-1540 (4653)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-18 03:52:07 +0100 aruna-Vostro-1540 (4653)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2019-12-18 03:52:07 +0100 aruna-Vostro-1540 (4653)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: Failed to open TCP connection to collector.newrelic.com:443 (getaddrinfo: Name or service not known)
+[2019-12-18 03:52:07 +0100 aruna-Vostro-1540 (4653)] INFO : Will re-attempt in 60 seconds
+[2019-12-18 03:53:19 +0100 aruna-Vostro-1540 (4653)] ERROR : Invalid license key
+[2019-12-18 03:53:19 +0100 aruna-Vostro-1540 (4653)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-18 03:55:14 +0100 aruna-Vostro-1540 (4653)] INFO : Starting Agent shutdown
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Starting the New Relic agent in "development" environment.
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Reading configuration from config/newrelic.yml (/home/aruna/Desktop/diamond)
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : New Relic Agent Developer Mode enabled.
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Environment: development
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : No known dispatcher detected.
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Application: My Application (Development)
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Installing ActiveRecord 5 instrumentation
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Installing ActiveJob instrumentation
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Installing Net instrumentation
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Installing Rails 5 view instrumentation
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Installing Rails 5 Action Cable instrumentation
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Installing Rails 5 Controller instrumentation
+[2019-12-18 04:05:20 +0100 aruna-Vostro-1540 (5479)] INFO : Finished instrumentation
+[2019-12-18 04:05:23 +0100 aruna-Vostro-1540 (5479)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-12-18 04:05:23 +0100 aruna-Vostro-1540 (5479)] ERROR : Invalid license key
+[2019-12-18 04:05:23 +0100 aruna-Vostro-1540 (5479)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-12-18 04:28:36 +0100 aruna-Vostro-1540 (5479)] INFO : Starting Agent shutdown
