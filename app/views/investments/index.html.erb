@@ -1,0 +1,366 @@
+ <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Dashboard
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="breadcrumb-item active">Dashboard    
+       </li>
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content" style="padding-bottom:1px">
+    <div class="row">
+      
+  
+
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-info text-white"><i class="fa fa-money"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-number">
+
+
+              <%= @total %></small></span>
+              <span class="info-box-text"> Deposit</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-success text-white"><i class="fa fa-money"></i></span>
+
+            <div class="info-box-content">
+            <span class="info-box-number"> <%= @count %></small></span>
+              <span class="info-box-text"> Investment</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+
+        <!-- fix for small devices only -->
+        <div class="clearfix visible-sm-block"></div>
+
+       
+        <!-- /.col -->
+
+         <div class="col-xl-3 col-md-6 col-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-danger text-white"><i class="fa fa-user"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-number"> 2</span>
+              <span class="info-box-text"> Referred</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-danger text-white"><i class="fa fa-user"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-number">50,820.00</span>
+              <span class="info-box-text">Referal Bonus</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+      </div>
+   
+
+
+  </section>
+  
+  
+  <section class="content">
+    <div class="row">
+          <% @investments.each do |invest| %>
+
+      <div class="col-12 col-xl-6">
+      <div class="box">
+        <div class="box-inverse bg-primary">  
+          <div class="box-header">
+            <h4 class="box-title">My Investments 
+                   </h4>
+          </div>
+          <div class="box-body py-0">
+          <h4 class="text-center font-size-30 mt-0">Amount:₦ 
+
+              <%= invest.capital %></h4>
+            <h4 class="text-center font-size-25 mt-0"> Rates: <% if invest.package == 'Local' %>
+              2%
+             <% elsif invest.package == 'Local Extra' %>
+                 2.7%
+ <% end %>   
+               </h4>
+          </div>
+        </div>
+                <div class="box-body">
+          <div class="text-center py-0 bb-1 bb-dashed">
+             <h4>Summary <form name="login" id="login" >
+
+</form>
+
+</h4>
+             <ul class="flexbox flex-justified text-center my-20">
+            <li class="br-1 px-5">
+              <h6 class="mb-0 text-bold">Earnings</h6>
+              <small></small> 
+
+             
+<% end_time   =  (invest.last_wd).to_s %>
+<% withdraw_date = (invest.w_date).to_s %>
+<%  start_date = Date.parse  end_time%>
+<% end_date =  Date.parse Time.now.to_s %>
+<% w_date =  Date.parse withdraw_date %>
+<%= earning = number_with_delimiter((end_date - start_date).to_i * invest.capital * 0.02) %>
+
+             </small>
+            </li>
+
+          <!--  <li class="br-1 px-5">
+              <h6 class="mb-0 text-bold">Rate</h6>
+              <small>3%</small>
+            </li> -->
+
+            <li class="br-1 px-5">
+              <h6 class="mb-0 text-bold">Date Invested</h6>
+              <small> <%= invest.created_at.to_date %></small>
+            </li>
+
+              <li class="br-1 px-5">
+              <h6 class="mb-0 text-bold">Elapse Date</h6>
+              <small> <%= invest.w_date %></small>
+            </li>
+
+
+             <li class="px-5">
+              <h6 class="mb-0 text-bold">Status</h6>
+              <small> Approved </small>
+            </li><br>
+        
+            </ul> 
+
+                   <% if end_date >= w_date %>
+
+                      
+                        <button type="button" class="btn bg-navy btn-flat margin" onclick="myFunction()" >Withdraw Earnings </button> 
+            <% else %>
+
+             <a  class="btn bg-navy btn-flat margin" href="/investments/<%= invest.id %>" >Withdraw Earning </a> 
+             <% end %>             
+          </div>
+       
+        </div>
+      </div>
+
+    </div>
+
+
+  <% end %>
+
+        <div class="col-12 col-xl-6">
+          <div class="box">
+            <div class="box-header with-border">
+              <h3 class="box-title">Deposit</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+        <div class="table-responsive">
+          <table class="table table-striped">
+          <tr>
+            
+            <th>Amonut</th>
+            <th>Package</th>
+            <th>Type</th>
+            <th>Proof of Payment</th>
+            <th style="width: 40px">Status</th>
+          </tr>
+              <% @investments.each do |invests| %>
+
+            <tr>
+            <td>               ₦ 
+
+                              
+            
+            
+            
+            
+            <%= invests.capital %></td>
+            <td> <%= invests.package %></td>
+            <td>
+           Deposit
+           
+            </td>
+          <td>
+             <span class="badge bg-blue">  POP Uploaded </span>
+                            
+            
+
+
+            </td>
+            <td>
+                
+               <span class="badge bg-green">Approved</span>
+
+                           </td>
+          </tr>
+            <% end %> 
+
+
+                     
+                    
+            </table>
+        </div>
+           </div>
+        </div>
+
+                
+
+         <div class="box">
+            <div class="box-header with-border">
+              <h3 class="box-title">Withdrawals</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+        <div class="table-responsive">
+          <table class="table table-striped">
+          <tr>
+            
+            <th>Amonut</th>
+            
+            <th>Type</th>
+           
+            <th style="width: 40px">Status</th>
+          </tr>
+              <% @withdrawals.each do |withdraws| %>
+
+            <tr>
+            <td> ₦ <%= withdraws.Amount %></td>
+            
+            <td>
+           Withdrawal
+           
+            </td>
+         
+            <td>
+                
+               <span class="badge bg-green">Approved</span>
+
+                           </td>
+          </tr>
+            <% end %> 
+
+
+                     
+                    
+            </table>
+        </div>
+           </div>
+        </div>
+
+          <!-- /.box -->
+        </div>
+       </div>
+
+
+   
+   
+
+
+
+
+
+      </section>
+
+      <section class="content">
+      <div class="row">
+
+              <div class="col-lg-4">
+                <div class="box box-inverse box-info text-center p-5">
+                  <div class="box-body">
+                    <span style="color:white;font-size:1.9em">Local Package</span>
+                    <br>
+                    <h3 class="font-weight-10 font-size-30">2% daily </h3>
+                    <div>for 90 days(Capital Inclusive)</div>
+                    <p>Minimum Investment:N20,000</p>
+                    <p>Maximum Investment:N5,000,000</p>
+                    <p>Withdrawals opens every 20days</p>
+                    <p>Withdrawal fee:3%</p>
+                    <p>Referal Bonus:4%</p>
+                
+                    <a class="btn btn-bold btn-block btn-outline btn-light" href="invest1.php">Invest Now</a>
+                  </div>
+                </div>
+              </div>
+              
+              
+                  <div class="col-lg-4">
+                <div class="box box-inverse box-info text-center p-5">
+                  <div class="box-body">
+                    <span style="color:white;font-size:1.9em">Local Extra Package</span>
+                    <br>
+                    <h3 class="font-weight-10 font-size-30">2.7% daily </h3>
+                    <div>for 50 days(Capital Inclusive)</div>
+                    <p>Minimum Investment:N200,000</p>
+                    <p>Maximum Investment:N5,000,000</p>
+                    <p>Withdrawals opens every 20days</p>
+                    <p>Withdrawal fee:3%</p>
+                    <p>Referal Bonus:4%</p>
+                
+                    <a class="btn btn-bold btn-block btn-outline btn-light" href="invest3.php">Invest Now</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4">
+                <div class="box box-inverse box-info text-center p-5">
+                  <div class="box-body">
+                    <span style="color:white;font-size:1.9em">INTERNATIONAL PACKAGE</span>
+                    <br>
+                    <h3 class="font-weight-10 font-size-30">2% daily </h3>
+                    <div>for 90 days(Capital Inclusive) </div>
+
+                    <p>Minimum Investment:$100</p>
+                    <p>Maximum Investment:$10,000</p>
+                    <p>Withdrawals open every 20days</p>
+                    <p>Minimum withdrawal:$50</p>
+                    <p>Withdrawal fee:3%</p>
+                    <p>Referal Bonus:4%</p>
+                    
+                
+                    <a class="btn btn-bold btn-block btn-outline btn-light" href="invest2.php">Invest Now</a>
+                  </div>
+                </div>
+              </div>
+
+            
+             
+
+            </div>
+            </section>
+   
+            </section>
+  </div>
+
+  <script type="text/javascript">
+    function myFunction() {
+  alert("You cant withdraw now. Your investment has not reached the elapse date");
+}
+
+  </script>

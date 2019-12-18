@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width-device-width",initial-scale=1.0">
+    <title>Diamondhub Plus-Most Trusted Online Investment Platform</title>
+    <%= csrf_meta_tags %>
+
+     <%= stylesheet_link_tag    'material/bootstraps.min.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
+    <%= stylesheet_link_tag    'material/flaticon.min.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
+    <%= stylesheet_link_tag    'material/animate.min.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
+    <%= stylesheet_link_tag    'material/owl.carousel.min.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
+    <%= stylesheet_link_tag    'material/bootstrap-select.min.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
+    <%= stylesheet_link_tag    'material/magnific-popup.min.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+    <%= stylesheet_link_tag    'material/loader.min.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
+    <%= stylesheet_link_tag    'material/style.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
+    <%= stylesheet_link_tag    'material/skin-1.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+    <%= stylesheet_link_tag    'material/switcher.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
+    <%= stylesheet_link_tag    'material/settings.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+    <%= stylesheet_link_tag    'material/navigation.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
+   
+    
+    <%= stylesheet_link_tag "https://fonts.googleapis.com/
+    css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" %>
+
+      <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" %>
+
+    <%= javascript_include_tag 'application'%>
+    
+  
+  </head>
+
+  <body >
+    
+   
+ <%= render 'shared/nav' %>
+   
+    <%= yield %>
+
+    <%= render 'shared/footer' %>
+<script type="text/javascript">
+  $(function(){
+    var timer = !1;
+    _Ticker = $("#T1").newsTicker();
+    _Ticker.on("mouseenter",function(){
+      var __self = this;
+      timer = setTimeout(function(){
+        __self.pauseTicker();
+      },200);
+    });
+    _Ticker.on("mouseleave",function(){
+      clearTimeout(timer);
+      if(!timer) return !1;
+      this.startTicker();
+    });
+  });
+</script>
+  </body>
+
+</html>

@@ -1,0 +1,41 @@
+
+  <%= form_for([ @investment, @investment.withdrawals.build ], class: 'your-form') do |form| %>
+</p>
+
+  <div class="field">
+    <%= form.hidden_field :investment_id %>
+  </div>
+
+
+ 
+  <div class="field">
+    <%= form.hidden_field :Account, value: @investment.user.name %>
+  </div>
+
+   <div class="field">
+   
+    <%= form.hidden_field :capital, value:@investment.capital  %>
+  </div>
+
+  <div class="field">
+   
+    <%= form.hidden_field :last_with, value:@investment.last_wd  %>
+  </div
+
+  <div class="actions">
+    <%= form.submit "Withdraw", class: 'btn btn-bold btn-pure btn-primary float-left'  %>
+  </div>
+<% end %>
+
+<script type="text/javascript">
+$(document).on('ajax:success', '.your-form', function(e, data) {
+  if(data.status == 'success'){
+    showSuccessFlash(data);
+  }else{
+    showErrorFlash(data);
+  }
+});
+
+</script>
+
+               

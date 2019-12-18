@@ -1,0 +1,90 @@
+ <div class="page-content">
+            
+            <!-- INNER PAGE BANNER -->
+            <div class="wt-bnr-inr overlay-wraper" style="background-image:url(assets/invest.jpg);">
+                <div class="overlay-main bg-black opacity-05"></div>
+                <div class="container">
+                    <div class="wt-bnr-inr-entry">
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- INNER PAGE BANNER END --> 
+                
+            <!-- BREADCRUMB ROW -->                            
+            <div class="bg-gray-light p-tb20">
+                <div class="container">
+                    <ul class="wt-breadcrumb breadcrumb-style-1">
+                        <li><a href="javascript:void(0);">Home</a></li>
+                        <li>Login</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- BREADCRUMB  ROW END --> 
+                
+            <!-- SECTION CONTENT START -->
+            <div class="section-full p-t80 p-b50">
+            
+                <!-- PRODUCT DETAILS -->
+                <div class="container woo-entry">
+              
+                    
+                    <!-- SECTION CONTENT START -->
+                        <div class="section-content">
+                            
+                                <!-- FROM STYEL 1 -->
+                                <div class="col-md-9 m-b30">
+                                    <div class="section-head">
+                                        <h3 class="text-uppercase">Login</h3>
+                                        <div class="wt-separator-outer">
+                                            <div class="wt-separator bg-primary"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="wt-box">
+       <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+   
+                                                <div class="row">
+                                                <div class="col-md-9 col-sm-9">
+                                                    <div class="form-group">
+                             <%= f.label :email %><br />
+          <%= f.email_field :email, autofocus: true, class: 'form-control' %>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+
+                                              <div class="row">
+                                                <div class="col-md-9 col-sm-9">
+                                                    <div class="form-group">
+                                <%= f.label :password %><br />
+          <%= f.password_field :password, autocomplete: "off", class: 'form-control' %>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                           
+                                          
+                                            
+                                            
+                                            
+                                             <%= f.submit "Log in", class: 'site-button' %><br>
+                                            
+                                       <% end %>
+
+                                    </div>                    
+                                </div>
+                                
+                                <!-- FROM STYEL 1 WITH ICON -->
+                                
+                                
+                            </div>
+                    <!-- SECTION CONTENT END -->                    
+                    
+                </div>
+                <!-- PRODUCT DETAILS -->    
+                    
+            </div>
+            <!-- CONTENT CONTENT END -->                    
+        </div>

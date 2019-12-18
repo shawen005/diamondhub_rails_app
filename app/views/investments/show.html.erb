@@ -1,0 +1,160 @@
+ <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Withdrawals
+      </h1>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Withdrawals</a></li>
+      
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+      <div class="row">
+       
+      
+      </div>
+    
+     
+      <div class="box box-default">
+        <div class="box-header with-border">
+          <h3 class="box-title"></h3>
+          </div>
+        <!-- /.box-header -->
+       
+            
+         <div class="box">
+            <div class="box-header with-border">
+                 <div class="col-12 col-sm-6">
+   
+<h3>Withdrawal Details</h3>
+
+<p style="font-size:1.2em";"color:black" >Earnings:<% end_time   =  (@investment.last_wd).to_s %>
+<% withdraw_date = (@investment.w_date).to_s %>
+<%  start_date = Date.parse  end_time%>
+<% end_date =  Date.parse Time.now.to_s %>
+<% w_date =  Date.parse withdraw_date %>
+<% @earning = number_with_delimiter((end_date - start_date).to_i * @investment.capital * 0.02) %> 
+<%=   @earning           %> 
+</p>
+<p style="font-size:1.2em";"color:black" >Withdrawal Charge: :<%= charges = number_with_delimiter((end_date - start_date).to_i * @investment.capital * 0.03 * 0.02) %> </p>
+ </p>
+<p style="font-size:1.2em";"color:black" >Withdrawable Amount:<% @withdraw =(end_date - start_date).to_i  * @investment.capital * 0.02 - (end_date - start_date).to_i  * @investment.capital * 0.03 * 0.02 %></p>
+
+<h1>User Details</h1>
+<hr>
+
+         
+<p style="font-size:1.2em";"color:black" >Name:<%= @investment.user.name %>  </p>
+<p style="font-size:1.2em";"color:black" >Phone Number:<%= @investment.user.phone %> </p>
+<p style="font-size:1.2em";"color:black" >Member since:<%= distance_of_time_in_words(Time.now, @investment.user.created_at)%> </p>
+
+                   
+   <%= render 'withdrawals/form' %>
+             
+
+
+ 
+          
+          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+           
+          </p>
+        </div>
+                
+                </div>
+                
+                </div>
+      <div class="row">
+        
+          <div class="col-12">
+         
+          <div class="box">
+            <div class="box-header with-border">
+              <h3 class="box-title">Investments</h3>
+           
+            </div>
+             <div class="box-body">
+        <div class="table-responsive">
+          <table id="example" class="table table-bordered table-hover display nowrap margin-top-10 w-p100">
+          <thead>
+            <tr>
+              <th>Amount Invested</th>
+              <th>Package</th>
+              <th>Profit</th>
+              
+              <th>Total Accrued Amount</th>
+               <th>Elapse date</th>
+              <th>Status</th>
+             
+            </tr>
+         <% @investments.each do |invests| %>
+
+            <tr>
+            <td>               ₦ 
+
+                              
+            
+            
+            
+            
+            <%= invests.capital %></td>
+            <td> <%= invests.package %></td>
+            <td><% if invests.package == 'Local' %>
+              2%
+             <% elsif invests.package == 'Local Extra' %>
+                 2.7%
+ <% end %>   
+               
+           
+            </td>
+          <td>
+
+            <%= invests.i_return %>
+            
+
+
+            </td>
+            <td>
+                
+             <%= invests.w_date %>
+
+                           </td>
+
+                 <td>
+                
+               <span class="badge bg-green">Approved</span>
+
+                           </td>          
+          </tr>
+            <% end %> 
+
+
+       
+        </table>
+        </div>              
+            </div>
+            
+            
+       
+          
+
+
+
+          </div>
+          <!-- /.box -->
+        
+          <!-- /.box -->          
+        </div>
+     
+        <!-- ./col -->
+  
+
+    </section>
+    <!-- /.content -->
+  </div>
+  
+  
