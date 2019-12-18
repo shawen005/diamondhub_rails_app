@@ -1,0 +1,47 @@
+ 
+
+<%= form_for (investment) do |form| %>
+        <section>
+          <div class="row">
+            <div class="col-md-9">
+              <div class="form-group">
+                <%= form.label :package %>:
+                <%= form.select(:package, [ ['Local', 'Local'], ['Local Extra', 'Local Extra'],['International','International'] ], {}, { :class => 'custom-select form-control'}) %>
+         
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="form-group">
+               <%= form.label :capital %>:
+    <%= form.number_field :capital, class:'form-control',:required => true %></div>
+                <p id="demo" style="color:red"></p>
+
+            </div>
+
+           
+  
+              
+
+
+          </div>
+          <!--<div class="row">
+             <div class="col-md-9">
+              <div class="form-group">
+                <label for="location2">Upload POP:<span class="danger">*</span></label>
+               <%= form.file_field :img,  class:'form-control' %>
+              </div>
+            </div>
+          
+          </div>  -->
+
+        <div class="row">
+          <div class="col-md-3">
+         
+          <%= form.submit "Submit", class: 'btn btn-block btn-rounded btn-success' %>
+                               <% end %>
+
+        </div>
+      </div>
+        </section>
+    
+      </form>

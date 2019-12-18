@@ -1,0 +1,101 @@
+<aside class="main-sidebar">
+    <!-- sidebar -->
+    <section class="sidebar">
+      <!-- Sidebar user panel -->
+      <div class="user-panel" style="background-image:url(../assets/user-info.jpg);">
+     <div class="ulogo">
+       <a href="#">
+        <!-- logo for regular state and mobile devices -->
+        <span class="text-white"></span>
+      </a>
+    </div>
+        <div class="image">
+        
+          <%= image_tag "prof.jpg", :class => "rounded-circle" %>
+        </div>
+        <div class="info text-white">
+          <p> <%=  current_user.name %></p>
+      <a href="" class="link text-white" data-toggle="tooltip" title="" data-original-title="Settings"><i class="fa fa-gear fa-spin"></i></a>
+            <a href="profile.php" class="link text-white" data-toggle="tooltip" title="" data-original-title="profile"><i class="fa fa-user"></i></a>
+            <a href="/logout" class="link text-white" data-toggle="tooltip" title="" data-original-title="Logout"><i class="fa fa-sign-out"></i></a>
+        </div>
+      </div>
+      <!-- sidebar menu -->
+      <ul class="sidebar-menu" data-widget="tree">
+             
+        <li class="active">
+          <a href="/investments">
+            <i class="fa fa-dashboard"></i>
+            <span>Dashboard</span>
+            <span class="pull-right-container">
+
+            </span>
+          </a>
+
+          
+
+        </li>
+         
+      
+        <li >
+          <a href="/investments/new">
+            <i class="fa fa-th"></i>
+            <span>Investments</span>
+            
+          </a>
+         
+        </li>
+
+
+         <li >
+          <a href="/withdrawals">
+            <i class="fa fa-th"></i>
+            <span>Withdrawals</span>
+           
+          </a>
+         
+        </li>
+
+
+          <li>
+          <a href="">
+            <i class="fa fa-th"></i>
+            <span>Referal Link</span>
+            
+          </a>
+         
+        </li>
+
+
+         <li>
+          <a href="">
+            <i class="fa fa-th"></i>
+            <span>Change Password</span>
+
+          </a>
+         
+        </li>
+        
+        
+        <li >
+          <a href="">
+            <i class="fa fa-th"></i>
+            <span>Support</span>
+            
+          </a>
+         
+        </li>
+        
+        <!--  <li>
+          <a href="test.php">
+            <i class="fa fa-th"></i>
+            <span>Testimonial</span>
+
+          </a>
+         
+        </li>  -->
+        
+        
+      </ul>
+    </section>
+  </aside>

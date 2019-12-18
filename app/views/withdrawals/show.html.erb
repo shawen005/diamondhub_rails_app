@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @withdrawal.user_id %>
+</p>
+
+<p>
+  <strong>Invest:</strong>
+  <%= @withdrawal.invest_id %>
+</p>
+
+<p>
+  <strong>Account:</strong>
+  <%= @withdrawal.Account %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @withdrawal.Amount %>
+</p>
+
+<p>
+  <strong>Charges:</strong>
+  <%= @withdrawal.charges %>
+</p>
+
+<p>
+  <strong>Payable:</strong>
+  <%= @withdrawal.payable %>
+</p>
+
+<p>
+  <strong>W date:</strong>
+  <%= @withdrawal.w_date %>
+</p>
+
+<%= link_to 'Edit', edit_withdrawal_path(@withdrawal) %> |
+<%= link_to 'Back', withdrawals_path %>

@@ -1,0 +1,148 @@
+   <div class="page-content">
+            
+            <!-- INNER PAGE BANNER -->
+          <div class="wt-bnr-inr overlay-wraper" style="background-image:url(<%= "assets/invest.jpg"%>)">
+               
+                <div class="overlay-main bg-black opacity-05"></div>
+                <div class="container">
+                    <div class="wt-bnr-inr-entry">
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- INNER PAGE BANNER END --> 
+                
+            <!-- BREADCRUMB ROW -->                            
+            <div class="bg-gray-light p-tb20">
+                <div class="container">
+                    <ul class="wt-breadcrumb breadcrumb-style-1">
+                        <li><a href="javascript:void(0);">Home</a></li>
+                        <li>Register</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- BREADCRUMB  ROW END --> 
+                
+            <!-- SECTION CONTENT START -->
+            <div class="section-full p-t80 p-b50">
+            
+                <!-- PRODUCT DETAILS -->
+                <div class="container woo-entry">
+               
+                    
+                    <!-- SECTION CONTENT START -->
+                        <div class="section-content">
+                            
+                                <!-- FROM STYEL 1 -->
+                                <div class="col-md-9 m-b30">
+                                    <div class="section-head">
+                                        <h3 class="text-uppercase">Register with Us</h3>
+                                        <div class="wt-separator-outer">
+                                            <div class="wt-separator bg-primary"></div>
+                                        </div>
+                                    </div>
+                     
+                                    <div class="wt-box">
+
+                                          <%= form_for(@user, url: registration_path(resource_name),:validate=> true)  do |f| %> <%= devise_error_messages! %>
+  
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12">
+                                                    <div class="form-group">
+                                                    <%= f.label :name,'FullName' %>
+                                                    <%= f.text_field :name, class: 'form-control'%>
+                                                    </div>
+                                                </div>
+                                              
+                                            </div>
+
+                                           
+                                          
+                                            <div class="row">
+                                                
+                                                  <div class="col-md-6 col-sm-6">
+                                                    <div class="form-group">
+                                                    <%= f.label :email,'Email' %>
+                                                     <%= f.text_field :email, class: 'form-control'%>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6">
+                                                    <div class="form-group">
+                                                          <%= f.label :phone %>
+                                                     <%= f.text_field :phone, class: 'form-control'%>
+                                                    </div>
+                                                </div>
+                                              
+                                            </div>
+                                            
+                                            
+                                
+                                
+                                             <div class="row">
+                                                <div class="col-md-12 col-sm-12">
+                                                    <div class="form-group">
+                                                       <%= f.label :password %>
+                                                     <%= f.password_field :password, class: 'form-control'%>
+                                                    </div>
+                                                </div>
+                                               
+                                            </div>
+
+                                              <div class="row">
+                                             <div class="col-md-12 col-sm-12">
+                                                    <div class="form-group">
+                                                        <%= f.label :password_confirmation %><br />
+                                                        <%= f.password_field :password_confirmation,  class: 'form-control' %>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                           <div class="row">
+                                                <div class="col-md-9 col-sm-9">
+                                                    <div class="form-group">
+                                                         <%= f.label :accountname,'Account Name' %>
+                                                          <%= f.text_field :accountname,class: 'form-control' %>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                                                                       <div class="row">
+                                                <div class="col-md-9 col-sm-9">
+                                                    <div class="form-group">
+                                                         <%= f.label :accountnumber,'Account Number' %>
+                                                          <%= f.text_field :accountnumber,class: 'form-control' %>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                            
+                                             <div class="row">
+                                                <div class="col-md-9 col-sm-9">
+                                                    <div class="form-group">
+                                                         <%= f.label :bankname, 'Bank Name' %>
+                                                          <%= f.text_field :bankname,class: 'form-control' %>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                           
+                                              <%= f.submit "Create an Account", class: 'site-button' %>
+                                            
+                                          <% end %>
+                                    </div>                    
+                                </div>
+                                
+                                <!-- FROM STYEL 1 WITH ICON -->
+                                
+                                
+                            </div>
+                    <!-- SECTION CONTENT END -->                    
+                    
+                </div>
+                <!-- PRODUCT DETAILS -->    
+                    
+            </div>
+            <!-- CONTENT CONTENT END -->                    
+        </div>
+        <!-- CONTENT END -->
+        

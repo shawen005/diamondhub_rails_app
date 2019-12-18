@@ -1,0 +1,80 @@
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+       
+      </h1>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Withdrawals</a></li>
+      
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content" style="margin-top: 10px">
+
+    
+      
+      <div class="row">
+        
+          <div class="col-12">
+         
+          <div class="box">
+            <div class="box-header with-border">
+              <h3 class="box-title">Withdrawals</h3>
+           
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+        <div class="table-responsive">
+          <table id="example" class="table table-bordered table-hover display nowrap margin-top-10 w-p100">
+          <thead>
+            <tr>
+              <th>Amount</th>
+              <th>Package</th>
+              <th>Type</th>
+              <th>Date</th>
+             <th>Status</th>
+             
+            </tr>
+          </thead>
+          <tbody>
+             <% @withdrawals.each do |withdrawal| %>
+
+                        <tr>
+              <td>₦<%= withdrawal.Amount %></td>
+              <td>Local</td>
+              <td>Withdrawals</td>
+             
+              <td><%= withdrawal.w_date %></td>
+              <td>
+                
+               <span class="badge bg-green">Approved</span>
+
+               
+                </td>
+            </tr>
+            
+              <% end %>           
+          
+       
+          </tbody>          
+       
+        </table>
+        </div>              
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        
+          <!-- /.box -->          
+        </div>
+     
+        <!-- ./col -->
+  
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
