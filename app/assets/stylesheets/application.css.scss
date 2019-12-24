@@ -13,6 +13,8 @@
 @import “font-awesome”;
 @import "bootstrap-sprockets";
 @import "bootstrap";
-*= require_tree .
-*= require_self
-*/
+@import "style.css";
+@import "cutom.css";
+@import "owl.carousel.min.css";
+
+
